@@ -1,0 +1,120 @@
+body{
+  background-color: #bdc8d2;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+  "uno uno dos tres"
+  "cuatro cinco cinco tres";
+  gap: 20px;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.grid-item-selected {
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #48556a;
+}
+
+.uno{
+  grid-area: uno;
+}
+
+.dos{
+  grid-area: dos;
+}
+
+.tres{
+  grid-area: tres;
+}
+
+.cuatro{
+  grid-area: cuatro;
+}
+
+.cinco{
+  grid-area: cinco;
+}
+
+
+.user1{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  vertical-align: auto;
+}
+
+.user1 img{
+  width: 60px;
+  border-radius: 50%;
+  border: 2px #946ad4 solid;
+}
+
+
+
+
+
+.txtphoto .name-selected{
+  font-size: 14px;
+  color: #cfcfbc;
+}
+
+.txtphoto .txt-selected{
+  font-size: 12px;
+  color: #828995;
+}
+
+.txtphoto .name{
+  font-size: 14px;  
+  color: #19202d;
+}
+
+.txtphoto .txt{
+  font-size: 12px;
+  color: #8d9096;
+}
+
+.name{
+
+}
+
+.txtdesc{
+  text-align: left;
+  /* width: 50%; */
+}
+
+.txt1{
+  font-size: 20px;
+}
+
+.txt2{
+  font-size: 20px;
+  color: #48556a;
+}
+
+.txt-user{
+  color: #7f7f7f;
+}
+
+.txt-selected{
+  font-size: 20px;
+  color: #cfcfcf;
+}
+
+.txt-selected-2{  
+  color: #9198a1;
+}
+
+
+
+
